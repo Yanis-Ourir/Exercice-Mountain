@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rokkitt:wght@100&display=swap');
+
+* {
+ 
+}
+
+* p {
+    
+}
+
+* h1 h2 h3 h4 h5 h6 {
+    font-family: 'Rokkit', sans-serif;
+}
+
+
+#home {
+
+    background-image: url(../images/bg_header.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.title-header {
+    margin-top: 3.5rem;
+}
+
+#home hr {
+    width: 1200px;
+    
+}
+
+#jumbotron2 {
+    color: white;
+    margin-top: 15rem;
+    text-align: center;
+    justify-content: center;
+    margin-right: 16rem;
+
+    
+    
+
+
+}
+
+#nuage .jumbotron {
+    color: white;
+    width: 60px;
+    height: 600px;
+    position: relative;
+    
+    
+
+
+}
+
+
+#nuage {
+    background-image: url(/images/bg_nuage.jpg);
+    background-repeat: no-repeat;
+    height: 616px;
+    background-size: 100%;
+    background-position: center;
+
+
+}
+
+#blue-info {
+    color: white;
+    padding: 1rem;
+    height: 616px;
+    width: 700px;
+    padding-top: 3rem;
+}
+
+#photo {
+    background-image: url(/images/bg_appareil_photo.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#bike {
+    width: 450px;
+    height: 450px;
+}
+
+#blue-info2 {
+    color: white;
+    padding: 1rem;
+    margin-left: 16rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#look-my-photos {
+    background-color: #dcdcdc;
+
+}
+
+#avion {
+    margin-top: 0.76rem;
+}
+
+#newsletter {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/bg_newsletter.jpg);
+    background-size: 200%;
+    background-position: 5% 5%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+}
+
+#logo-s {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#social-network {
+    margin-right: 20rem;
+}
+
+#footer {
+    height: auto;
+    overflow: hidden;
+}
+
+.footer-title {
+    padding-left: 30rem;
+    padding-top: 2rem;
+}
+
+.text-footer {
+    margin-top: 1rem;
+    padding-left: 30rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.ail {
+    color: #00fff0;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #home {
+
+    background-image: url(../images/bg_header.jpg);
+    background-size:cover;
+    font-size: 1rem;
+    
+    }
+
+    #features {
+        min-height: 1000px;
+    }
+
+    #feat {
+        min-height: 1000px;
+        max-width: 500px;
+        
+    }
+
+    #header-logo {
+        margin-right: 19rem;
+        align-items: center;
+        position: absolute;
+    }
+
+    #partenaires {
+        margin-left: 5.2rem;
+    }
+
+    #jumbotron2 {
+        justify-content: center;
+        margin-left: 15rem;
+    }
+
+    #nuage {
+        background-image: url(/images/bg_nuage.jpg);
+        background-size:cover;
+        height: 1000px;
+        background-position: right;
+        padding-right: 20rem;
+    }
+
+    #blue-info {
+        height: 1000px;
+        max-width: 350px;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        
+        
+        
+    }
+
+    #photo {
+        background-image: url(/images/bg_appareil_photo.jpg);
+        background-size: cover;
+        height: 1000px;
+    }
+
+    #bike {
+        width: 400px;
+        height: 400px;
+        margin-left: 0.8rem;
+    }
+
+    #blue-info2 {
+        max-width: 400px;
+        min-height: 1000px;
+        padding: 3rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    
+    }
+
+    #newsletter {
+        padding-right: 2rem;
+    }
+
+    
+
+    #footer {
+        margin-right: 0rem;
+        
+    }
+
+    #social-network {
+        position: absolute;
+        margin-top: 5rem;
+        margin-right: 10rem;
+        padding-left: 14rem;
+    }
+
+    .footer-title {
+        justify-content: start;
+        padding-left: 1rem;
+        
+        text-align: start;
+    
+    }
+
+    .text-footer {
+        justify-content: start;
+        padding-left: 1rem;
+        height: 100px;
+
+
+    }
+
+
+}

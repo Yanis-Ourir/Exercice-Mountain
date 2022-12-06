@@ -1,0 +1,107 @@
+/* Vos customisations des classes de Bootstrap */
+
+* {
+
+}
+#home {
+    background-image: url(../images/hero-image.jpg);
+
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
+
+
+strong {
+    font-weight:bold;
+   }
+
+.text-who {
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: red;
+}
+
+hr {
+    border-color: red;
+}
+
+.b-red {
+    font-weight: bold;
+    color: red;
+}
+
+#get-involved {
+    background-color: #f1f1f1;
+    padding-bottom: 1rem;
+
+}
+
+#arrow {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.one-million {
+    padding-top: 22rem;
+    padding-left: 6rem;
+}
+   
+
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    #who {
+        
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .one-million {
+        padding-top: 24rem;
+        padding-left: 2rem;
+    }
+
+    #h1 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    #p-responsive {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    #footer {
+        height: 100px;
+    }
+
+}
